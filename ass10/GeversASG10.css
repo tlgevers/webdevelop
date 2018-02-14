@@ -7,8 +7,10 @@ body {
 }
 
 .main-content {
-    position: relative;
-    top: 172px;
+    position: absolute;
+    top: 180px;
+    height: calc(100% - 470px);
+    overflow: scroll;
 }
 
 .cart-padding {
@@ -39,4 +41,23 @@ body {
 
 .price {
     color: red;
+}
+
+.panel-footer {
+    padding: 0 !important;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+@media (max-width: 767px) { 
+    .navbar-fixed-top {
+        position:relative;
+        top:auto;
+    }
+    .main-content {
+        position: relative;
+    }
+
 }
