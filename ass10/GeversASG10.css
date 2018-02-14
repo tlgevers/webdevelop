@@ -1,15 +1,11 @@
 body {
-    /* margin-left: 10px;
-    margin-right: 10px;
-    padding-left: 10px;
-    padding-right: 10px;  */
     overflow-x: hidden;
 }
 
 .main-content {
     position: absolute;
     top: 180px;
-    height: calc(100% - 470px);
+    height: calc(100% - 492px);
     overflow: scroll;
 }
 
@@ -29,8 +25,6 @@ body {
 }
 
 .thumbnail a>img, .thumbnail>img {
-    /*margin-left: 0 !important;*/
-    /*margin-right: 0 !important;*/
     width: 60%;
 }
 
@@ -51,6 +45,14 @@ body {
     margin-bottom: 0px;
 }
 
+.navbar-form {
+    margin-top: 18px !important;
+}
+
+.list-unstyled > li {
+    margin-bottom: 20px;
+}
+
 @media (max-width: 767px) { 
     .navbar-fixed-top {
         position:relative;
@@ -58,6 +60,10 @@ body {
     }
     .main-content {
         position: relative;
+        top:auto;
+        height: 100%;
     }
-
+    .navbar-fixed-bottom {
+        position: relative;
+    }
 }

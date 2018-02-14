@@ -8,9 +8,6 @@ main {
 }
 
 .main-img {
-    /*float:right;*/
-    /*padding: 10px;*/
-    /*display: inline;*/
     margin-top: 14px;
 }
 
@@ -63,7 +60,7 @@ ul li {
     padding-left: 34px;
     padding-top: 15px !important;
     /*background-image: linear-gradient(45deg, #83172A 5%, #FFFDEE 90%, #83172A 5%) !important;*/
-    background-image: linear-gradient(30deg, #f6bb73 0%, #fffded 30%, white 50%, #fffded 80%, #f6bb73 100%);
+    background-image: linear-gradient(35deg, #e2a75e 0%, #fffded 30%, white 50%, #fffded 80%, #e2a75e 100%);
     border-bottom: solid 5px #83172A;
 }
 
