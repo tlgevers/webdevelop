@@ -1,0 +1,155 @@
+#table-1, #table-1 th, #table-1 td  {
+    border-collapse: collapse;
+    border: solid 1px black;   
+    padding: 10px;
+    text-align: center;
+}
+
+#table-1 thead th {
+    background: #00fff9;
+}
+
+.left {
+    text-align: left;
+}
+
+.alternate {
+    background: lightgray;    
+}
+
+.add-row-1 td:nth-child(1):before {
+    content: "ASP.NET with Visual Basic";
+}
+
+.add-row-1 td:nth-child(2):before {
+    content: "2011";
+}
+
+.add-row-1 td:nth-child(3):before {
+    content: "$351,200";
+}
+
+.add-row-2 td:nth-child(1):before {
+    content: "ASP.NET with C#";
+}
+
+.add-row-2 td:nth-child(2):before {
+    content: "2011";
+}
+
+.add-row-2 td:nth-child(3):before {
+    content: "$404,332";
+}
+
+.add-row-2 {
+    background: lightgray;
+}
+
+#table-2 {
+    border-collapse: collapse;
+}
+
+#table-2-header th:nth-child(1) {
+    border-top: solid 1px black;   
+    border-left: solid 1px black;   
+    border-bottom: solid 1px black;   
+    padding: 10px;
+    text-align: center;
+    background: #71c8d3;
+}
+
+#table-2-header th:last-child {
+    border-top: solid 1px black;   
+    border-right: solid 1px black;   
+    border-bottom: solid 1px black;   
+    padding: 10px;
+    text-align: center;
+    background: #71c8d3;
+}
+
+
+#sub-table-2 {
+    border-collapse: collapse;
+}
+
+.inner-table th {
+    border-left: solid 1px black;
+    border-top: solid 1px black;   
+    border-bottom: solid 1px black;   
+    padding: 10px;
+    text-align: center;
+}
+
+
+.inner-table td {
+    border-top: solid 1px black;   
+    border-right: solid 1px black;   
+    border-bottom: solid 1px black;   
+    padding: 10px;
+    text-align: right;
+}
+
+.left-border {
+    border-left: solid 1px black;
+    border-top: solid 1px black;   
+    border-bottom: solid 1px black;   
+    padding: 10px;
+    text-align: center;
+    background: #71c8d3;
+}
+
+.right-border {
+    border-right: solid 1px black;
+    border-top: solid 1px black;   
+    border-bottom: solid 1px black;   
+    padding: 3px 4px 3px 4px;
+    text-align: right;
+}
+
+#employee-table {
+    border-collapse: collapse;
+    box-shadow: rgb(153, 153, 153) 6px 4px 3px 0px;
+    
+}
+
+#employee-heading th {
+    font-size: 22px;
+}
+
+#employee-header, #employee-header th {
+    background: yellow;
+    border: solid 1px black;
+    text-align: left;
+    padding-left: 5px;
+}
+
+#employee-footer, #employee-footer td {
+    background: yellow;
+    border-right: solid 1px black;
+    border-bottom: solid 1px black;
+}
+
+#employee-footer td:first-child {
+    text-align: right;
+    padding-right: 10px;
+}
+
+.odd-row {
+    background: yellow;
+}
+
+.employee-cell {
+    border: solid 1px black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.employee-row td:last-child {
+    text-align: right;
+}
+
+.heading-dept {
+    border-bottom: solid 1px black;
+    text-align: left;
+    padding-left: 5px;
+}

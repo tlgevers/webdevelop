@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>HTML Table</title>
+        <link rel="stylesheet" href="GeversASG6.css" type="text/css" />
+    </head>
+    <body>
+        
+        <h1>First Table</h1>
+        
+        <table id="table-1">
+            <thead>
+                <tr>
+                    <th class="left">Book</th>
+                    <th>Year published</th>
+                    <th>Total sales</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="left">PHP and MySQL</td>
+                    <td>2014</td>
+                    <td>$372,381</td>
+                </tr>
+                <tr class="alternate">
+                    <td class="left">JavaScript and jQuery</td>
+                    <td>2015</td>
+                    <td>$305,447</td>
+                </tr>
+                <tr>
+                    <td class="left">Java Programming</td>
+                    <td>2011</td>
+                    <td>$392,444</td>
+                </tr>
+                <tr class="alternate">
+                    <td class="left">Java Servlets and JSP</td>
+                    <td>2014</td>
+                    <td>$328,992</td>
+                </tr>
+                <tr class="add-row-1">
+                    <td class="left"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr class="add-row-2">
+                    <td class="left"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th class="left">Total Sales</th>
+                    <td></td>
+                    <td>$2,154,786</td>
+                </tr>
+            </tfoot>
+        </table>
+        <h2>Second Table</h2>
+        <table id="table-2">
+            <thead id="table-2-header">
+                <tr>
+                    <th>Region</th>
+                    <th>YTD Sales</th>
+                </tr>
+            </thead>
+            <tbody id="table-2-body">
+                <tr>
+                    <th class="left-border">West</th>        
+                    <td class="right-border">$68,684.34</td>        
+                </tr>
+                <tr>
+                    <th class="left-border">Central</th>        
+                    <td class="right-border">
+                        <table id="sub-table-2">
+                            <tbody class="inner-table">
+                                <tr>
+                                    <th>North</th>
+                                    <td>$21,223.08</td>
+                                </tr>
+                                <tr>
+                                    <th>South</th>
+                                    <td>$41,274.06</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>        
+                </tr>
+                <tr>
+                    <th class="left-border">East</th>        
+                    <td class="right-border">$72,741.06</td>        
+                </tr>
+            </tbody>
+        </table>
+        
+        <br> 
+            <table id="employee-table">
+                <thead>
+                    <tr id="employee-heading">
+                        <th colspan="4">Employee Table</th>
+                    </tr>
+                    <tr id="employee-header">
+                        <th>Department</th>
+                        <th>Name</th>
+                        <th>E-mail</th>
+                        <th>Years of Service</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="employee-row">
+                        <th rowspan="3" class="heading-dept">Editorial</th>
+                        <td class="employee-cell">Joel Murach</td>
+                        <td class="employee-cell">joelmurach@yahoo.com</td>
+                        <td class="employee-cell">22</td>
+                    </tr>
+                    <tr class="employee-row">
+                        <td class="odd-row employee-cell">Anne Boehm</td>
+                        <td class="odd-row employee-cell">anne@murach.com</td>
+                        <td class="odd-row employee-cell">34</td>
+                    </tr>
+                    <tr class="employee-row">
+                        <td class="employee-cell">Zak Ruvalcaba</td>
+                        <td class="employee-cell">zak@modulmedia.com</td>
+                        <td class="employee-cell">4</td>
+                    </tr>
+                    <tr class="employee-row">
+                        <th rowspan="2" class="heading-dept">Marketing</th>
+                        <td class="odd-row employee-cell">Judy Taylor</td>
+                        <td class="odd-row employee-cell">judy@murach.com</td>
+                        <td class="odd-row employee-cell">39</td>
+                    </tr>
+                    <tr class="employee-row">
+                        <td class="employee-cell">Cyndi Vasquez</td>
+                        <td class="employee-cell">cyndi@murach.com</td>
+                        <td class="employee-cell">10</td>
+                    </tr>
+                    <tr class="employee-row">
+                        <th rowspan="2" class="heading-dept">Customer Service</th>
+                        <td class="odd-row employee-cell">Kelly Slivkoff</td>
+                        <td class="odd-row employee-cell">kelly@murach.com</td>
+                        <td class="odd-row employee-cell">25</td>
+                    </tr>
+                    <tr class="employee-row">
+                        <td class="employee-cell">Juliette Baylon</td>
+                        <td class="employee-cell">juliette@murach.com</td>
+                        <td class="employee-cell">1</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr id="employee-footer">
+                        <th colspan="3">Total Years of Service</th>
+                        <td>105</td>
+                    </tr>
+                </tfoot>
+            </table> 
+    </body>
+</html>
