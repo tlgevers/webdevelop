@@ -2,18 +2,9 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Halloween Store</title>
 	<link rel="stylesheet" href="normalize.css" type="text/css" />
-	<link rel="stylesheet" href="main_rwd.css" type="text/css" />
-	<link rel="stylesheet" href="styles/slicknav.css" type="text/css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script src="js/jquery.slicknav.min.js"></script>
-	<script>
-		$(document).ready(function() {
-			$('#desktop-tablet-menu').slicknav({prependTo:"#mobile-menu"});
-		});
-	</script>
+	<link rel="stylesheet" href="main.css" type="text/css" />
 </head>
 <body>
 	<header>
@@ -22,7 +13,7 @@
 		<h4>For the little Goblin for all of us!</h4>
 	</header>
 	<nav id="navigation">
-		<ul id="desktop-tablet-menu">
+		<ul>
 			<li>
 				<a href="#">Home</a>
 			</li>
@@ -45,7 +36,6 @@
 				<a href="">Join Email</a>
 			</li>
 		</ul>
-		<ul id="mobile-menu"></ul>
 	</nav>
 	<main>
 		<section class="categories">
@@ -70,7 +60,7 @@
 				Product of the week
 			</h3>
 			<a class="image-link" href="products/cat.html">
-				<img class="cat-image" src="cat1.jpg" alt="Deranged Cat">
+				<img class="cat-image" src="cat1.jpg" alt="Deranged Cat" width="123">
 			</a>
 			<br>
 			<a class="standard-link" href="products/cat.html">20" Deranged cat</a>

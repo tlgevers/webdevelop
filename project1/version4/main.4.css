@@ -24,60 +24,6 @@ header>h4 {
     text-indent: 15px;
 }
 
-#navigation>ul>li:first-child a {
-    color: orange;
-}
-
-#navigation a {
-    text-decoration: none;
-    color: white;
-}
-
-#navigation>ul {
-    background: black;
-    padding-left: 0;
-    margin: 0;
-    position: relative;
-    -webkit-transition: .5s;
-    transition: .5s;
-}
-
-#navigation ul>li {
-    position: relative;
-    color: white;
-    display: inline-block;
-    width: 155px;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-#navigation ul ul {
-    position: absolute;
-    background: black;
-    padding-left: 0;
-    margin-top: 10px;
-    visibility: hidden;
-    opacity: 0;
-    -webkit-transition: .5s;
-    transition: .5s;
-}
-
-#navigation li:hover > ul {
-    visibility: visible;
-    opacity: 1;
-}
-
-#navigation ul ul li {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    -webkit-transition: .5s;
-    transition: .5s;
-}
-#navigation ul ul li:hover {
-    background: grey;
-}
-
 body {
     width: 800px;
     background: white;
@@ -99,7 +45,6 @@ header {
 
 main {
     width: 100%;
-    clear: left;
 }
 
 article {
@@ -128,14 +73,11 @@ article>h3 {
 }
 
 .cat-image {
+    display: block;
     padding-bottom: 10px;
 }
 
-.image-link {
-    text-decoration: none;
-}
-
-.standard-link {
+article>a {
     color: orange;
 }
 
@@ -144,28 +86,18 @@ article>h4 {
     margin-bottom: -4px;
 }
 
-.main-links {
-    padding-left: 20px;
-}
-
 .main-links li a, .main-links li a:visited {
-    color: black;
-    display: block;
-    background:orange;
-    border: solid 2px black;
-    padding: 5px; 
-    text-decoration: none;
+    color: #FF9800;
 }
 
 .main-links li a:hover {
     color: green;
 }
 
-
 .main-links li {
     margin-bottom: 5px;
-    list-style: none;
 }
+
 
 .categories {
     padding-top: 20px;
