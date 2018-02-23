@@ -15,6 +15,7 @@ html {
 }
 
 header>h3 {
+    font-family: 'Creepster', cursive;
     font-size: 2em;
     text-indent: 10px;
     margin-bottom: -2.2%;
@@ -24,6 +25,17 @@ header>h3 {
 header>h4 {
     font-size: large;
     text-indent: 15px;
+}
+
+article>h2 {
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+article>h6 {
+    font-size: 60%;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 #active {
@@ -106,6 +118,10 @@ main {
     clear: left;
 }
 
+#main-image {
+    width: 320px;
+}
+
 article {
     overflow: hidden;
 }
@@ -115,7 +131,7 @@ article>h1 {
 }
 
 article>p {
-    font-size: 0.9em;
+    font-size: 100%;
 }
 
 article {
@@ -201,4 +217,37 @@ footer>p {
    * {
        font-size: 90%;
    }
+}
+
+@media print {
+    header {
+        display: none;
+    }
+    #main-image {
+        display: none;
+    }
+    footer {
+        display: none;
+    }
+    .categories {
+        display: none;
+    }
+    article>h1 {
+        display: none;
+    }
+    body {
+        box-shadow: none;
+        border: none;
+    }
+    article>h2 {
+        display: block;
+        font-family: sans-serif;
+        border-bottom: solid 3px black;
+    }
+    article>h6, article>p {
+        display: block;
+        font-family: serif;
+    }
+
+     
 }

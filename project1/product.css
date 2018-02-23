@@ -133,11 +133,33 @@ article>h3 {
 
 
 .cat-image {
+    position: relative;
+    top: 0px;
     padding-bottom: 2%;
     padding-right: 5%;
     width: 26%;
     float:left;
     display: block;
+    -webkit-animation-name: shudder; 
+    -webkit-animation-duration: 0.5s; 
+    -webkit-animation-iteration-count: 6; 
+    animation-name: shudder;
+    animation-duration: 0.5s;
+    animation-iteration-count: 6;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes shudder {
+    0% {top: 10px;}
+    50% {top: 0px;}
+    100% {top: 10px;}
+}
+
+@keyframes shudder {
+    0% {top: 10px;}
+    50% {top: 0px;}
+    100% {top: 10px;}
 }
 
 .product-description {
@@ -209,7 +231,16 @@ article>h4 {
     padding-top: 1em;
     width:40px;
     text-decoration: none;
+    -webkit-transition: width 3s;
+    transition: width 3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
 }
+
+#categories-right li img:hover {
+    width: 125px;
+}
+
 
 #categories-right a {
     font-size: 95%;

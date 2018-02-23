@@ -1,0 +1,195 @@
+* {
+    font-family: sans-serif;
+    font-size: 100%;
+}
+
+html {
+    background-image: url("bats.gif");
+    background-repeat: repeat;
+}
+
+#imgpumpkin {
+    float: left !important;
+    width: 8.64%;
+    min-width: 40px;
+}
+
+header>h3 {
+    font-size: 2em;
+    text-indent: 10px;
+    margin-bottom: -2.2%;
+    margin-top: 0%;
+}
+
+header>h4 {
+    font-size: large;
+    text-indent: 15px;
+}
+
+#navigation>ul>li:first-child a {
+    color: orange;
+}
+
+#navigation a {
+    text-decoration: none;
+    color: white;
+}
+
+#navigation>ul {
+    background: black;
+    padding-left: 0;
+    margin: 0;
+    position: relative;
+    -webkit-transition: .5s;
+    transition: .5s;
+    width: 100%;
+}
+
+#navigation ul>li {
+    position: relative;
+    color: white;
+    display: inline-block;
+    width: 19%;
+    text-align: center;
+    padding-top: 1.3%;
+    padding-bottom: 1.3%;
+}
+
+#navigation ul ul {
+    position: absolute;
+    background: black;
+    padding-left: 0;
+    margin-top: 6.7%;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+#navigation li:hover > ul {
+    visibility: visible;
+    opacity: 1;
+}
+
+#navigation ul ul li {
+    padding-top: 6%;
+    padding-bottom: 6%;
+    width: 100%;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+#navigation ul ul li:hover {
+    background: grey;
+}
+
+body {
+    width: 95%;
+    max-width: 960px;
+    background: white;
+    border: solid 2px black;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 14px 15px 5px black;
+}
+
+header {
+    border-bottom: solid 2px black;
+    background-image: -webkit-linear-gradient(45deg, white, orange 75%, black 100%);
+    background-image: -moz-linear-gradient(45deg, white, orange 75%, black 100%);
+    background-image: -o-linear-gradient(45deg, white, orange 75%, black 100%);
+    background-image: linear-gradient(45deg, white, orange 75%, black 100%);
+    padding-top: 1%;
+    padding-left: 1%;
+}
+
+main {
+    clear: left;
+}
+
+article {
+    overflow: hidden;
+}
+
+article>h1 {
+    font-size: 1.4em;
+}
+
+article>p {
+    font-size: 0.9em;
+}
+
+article {
+    padding-right:3%;
+    padding-left: 2.5%;
+}
+
+article>h1::first-letter {
+    font-size: 200%;
+}
+
+article>h2 {
+    font-size: 1em;
+}
+
+.cat-image {
+    padding-bottom: 2%;
+    width: 15.375%;
+}
+
+.image-link {
+    text-decoration: none;
+}
+
+.standard-link {
+    color: orange;
+}
+
+article>h3 {
+    font-size: 1em;
+    margin-bottom: -0.86%;
+}
+
+.main-links {
+    padding-left: 2em;
+}
+
+.main-links li a, .main-links li a:visited {
+    color: black;
+    display: block;
+    background:orange;
+    border: solid 2px black;
+    padding: 0.6em; 
+    text-decoration: none;
+}
+
+.main-links li a:hover {
+    color: green;
+}
+
+
+.main-links li {
+    margin-bottom: 1.1em;
+    list-style: none;
+}
+
+.categories {
+    padding-top: 2%;
+    display: block;
+    float:left;
+    max-width:160px;
+    width: 16%;
+    position: relative;
+}
+
+footer {
+    border-top: solid 2px black;
+    background-image: linear-gradient(45deg, black, orange 75%, white 100%);
+    padding-bottom: 1%;
+    clear: left;
+}
+
+footer>p {
+    text-align: center; 
+    font-size: small; 
+    margin-bottom: 0px;
+}
